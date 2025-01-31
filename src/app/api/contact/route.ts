@@ -13,7 +13,7 @@ export async function POST(request: Request) {
   
   try {
     await rateLimiter.consume(ip)
-  } catch (rej) {
+  } catch {
     return NextResponse.json(
       { message: 'Too many requests. Please try again later.' },
       { status: 429 }
