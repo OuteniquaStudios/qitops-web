@@ -9,9 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: '#1a237e',    // Deep blue
+        accent: '#00e5ff',     // Cyan accent
+        secondary: '#f5f5f5',   // Light gray
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        body: ['Open Sans', 'sans-serif']
+      }
     },
   },
   plugins: [],
