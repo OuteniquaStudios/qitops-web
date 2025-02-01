@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="w-32 mb-4">
               <Image
-                src="/qitops_logo.svg"
+                src="/qitops_logo.svg1"
                 alt="qitops logo"
                 width={128}
                 height={32}
