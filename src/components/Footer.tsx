@@ -42,7 +42,6 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-4">Contact</h4>
             <p className="text-sm">hello@qitops.com</p>
-            <p className="text-sm mt-2">+1 (555) 123-4567</p>
             <div className="flex space-x-4 mt-4"> 
               <Link href="https://github.com/qitops/qitops-playbook" className="hover:text-accent transition-colors">
                 <span className="sr-only">GitHub</span>
